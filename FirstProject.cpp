@@ -10,7 +10,7 @@ int WINAPI WinMain(HINSTANCE hInstance,  //句柄
 	                                     //MB_YESNOCANCEL   3
 	                                     //MB_OK   或者 0
 //MB_OKCANCEL|MB_ICONHAND  可以是图标与按钮的组合  按钮可以为数字
-//MB_ICONHAND 10  MB_ICONQUESTION 20 MB_ICONEXCLAMATION 30 MB_ICONASTERISK 40
+//MB_ICONHAND 10(16)  MB_ICONQUESTION 20(32) MB_ICONEXCLAMATION 30(64) MB_ICONASTERISK 40(128)
 {
 	MessageBox(NULL,"这是第一个windows程序","温馨提示：",MB_OKCANCEL|MB_ICONHAND);
 	return 0;
